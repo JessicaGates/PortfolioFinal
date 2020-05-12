@@ -1,6 +1,6 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
-  text-align: center;
+  font-family: 'Kristi', cursive;
+    text-align: center;
 }
 
 body {
@@ -20,4 +20,117 @@ body {
   width: 20%;
   float: left;
   cursor: pointer;
+}
+
+h1 {
+font-family: 'Kristi', cursive;
+  text-align: center;
+  text-size: 50px;
+  color: #747171;
+}
+h2 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  color: #747171;
+}
+
+li{
+  list-style-type: none;
+  margin: 0 2px;
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  color: #747171;
+}
+
+a:hover {
+  background-color: ##F6C932;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  color: #747171;
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+  background-color: #F6E7F2;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: #747171;
+}
+.button-submit {
+  border: 0;
+  background: rgba(197,84,34,0.83);
+  text-shadow: 0.5px 0.5px 0.5px white;
+  border: 1px solid #999;
+  position: relative;
+  top: 60%;
+  left: 20%;
+  right: 20%;
+  bottom: 5%;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+}
+
+p {
+  font-family: 'Poiret One', cursive;
+  color: #080000;
 }
